@@ -8,17 +8,26 @@
 
 /* Begin PBXFileReference section */
 		E2CF65B72CAA6E6300CDAC6D /* MediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MediaPlayer.xcodeproj; path = MediaPlayer/MediaPlayer.xcodeproj; sourceTree = "<group>"; };
+		E2CF65D62CAF90A000CDAC6D /* PuzzleGameChallenge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PuzzleGameChallenge.xcodeproj; path = PuzzleGameChallenge/PuzzleGameChallenge.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		E2A457392CA67C2300F545FE = {
 			isa = PBXGroup;
 			children = (
+				E2CF65D62CAF90A000CDAC6D /* PuzzleGameChallenge.xcodeproj */,
 				E2CF65B72CAA6E6300CDAC6D /* MediaPlayer.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
 		E2CF65B82CAA6E6300CDAC6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2CF65D72CAF90A000CDAC6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -49,6 +58,10 @@
 				{
 					ProductGroup = E2CF65B82CAA6E6300CDAC6D /* Products */;
 					ProjectRef = E2CF65B72CAA6E6300CDAC6D /* MediaPlayer.xcodeproj */;
+				},
+				{
+					ProductGroup = E2CF65D72CAF90A000CDAC6D /* Products */;
+					ProjectRef = E2CF65D62CAF90A000CDAC6D /* PuzzleGameChallenge.xcodeproj */;
 				},
 			);
 			projectRoot = "";
