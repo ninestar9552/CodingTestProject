@@ -11,12 +11,14 @@
 		E2CF65D62CAF90A000CDAC6D /* PuzzleGameChallenge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PuzzleGameChallenge.xcodeproj; path = PuzzleGameChallenge/PuzzleGameChallenge.xcodeproj; sourceTree = "<group>"; };
 		E2CF65F22CB3AF5300CDAC6D /* DotGame.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DotGame.xcodeproj; path = DotGame/DotGame.xcodeproj; sourceTree = "<group>"; };
 		E2FC11522D7693AE00A616E3 /* TakeOutPackage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TakeOutPackage.xcodeproj; path = TakeOutPackage/TakeOutPackage.xcodeproj; sourceTree = "<group>"; };
+		E2FC116E2D76C85A00A616E3 /* SecretCode.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SecretCode.xcodeproj; path = SecretCode/SecretCode.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		E2A457392CA67C2300F545FE = {
 			isa = PBXGroup;
 			children = (
+				E2FC116E2D76C85A00A616E3 /* SecretCode.xcodeproj */,
 				E2FC11522D7693AE00A616E3 /* TakeOutPackage.xcodeproj */,
 				E2CF65F22CB3AF5300CDAC6D /* DotGame.xcodeproj */,
 				E2CF65D62CAF90A000CDAC6D /* PuzzleGameChallenge.xcodeproj */,
@@ -46,6 +48,13 @@
 			sourceTree = "<group>";
 		};
 		E2FC11532D7693AE00A616E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2FC116F2D76C85A00A616E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -84,6 +93,10 @@
 				{
 					ProductGroup = E2CF65D72CAF90A000CDAC6D /* Products */;
 					ProjectRef = E2CF65D62CAF90A000CDAC6D /* PuzzleGameChallenge.xcodeproj */;
+				},
+				{
+					ProductGroup = E2FC116F2D76C85A00A616E3 /* Products */;
+					ProjectRef = E2FC116E2D76C85A00A616E3 /* SecretCode.xcodeproj */;
 				},
 				{
 					ProductGroup = E2FC11532D7693AE00A616E3 /* Products */;
